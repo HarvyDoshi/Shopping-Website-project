@@ -1,0 +1,67 @@
+->address.html
+
+<html>
+<head>
+<title>
+Shipping address</title>
+<style>
+h1
+{
+color:yellow;
+background-color:blue;
+margin-left:100px;
+margin-right:100px;
+text-align:center;
+}
+h3
+{
+color:purple;
+}
+a
+{
+font-size:30px;
+color:red;
+}
+</style>
+</head>
+<body bgcolor=cyan>
+<a href="mainpg.html">Go to Main page</a>
+<form onsubmit="return validateForm()">
+<h1>Shipping Address</h1>
+<pre>
+<h3><label for="name">Name:</label><input type="text" id="name" name="name"
+required><br><br>
+<label for="address">Address:</label><input type="text" id="address" name="address"
+required><br><br>
+<label for="city">City:</label><input type="text" id="city" name="city" required><br><br>
+<label for="state">State:</label><input type="text" id="state" name="state"
+required><br><br>
+<label for="pin">Pin Code:</label><input type="text" id="pin" name="pin" required
+pattern="[0-9]{6}" title="Please
+enter a valid 6-digit pin code"></h3>
+</pre><p>Proceed for payment!</p>
+<a href="Payment.html" id="test" class="btn btn-info" role="button"><span>Submit</span>
+</a>
+<style>
+label
+{
+font-size:20px;
+}
+
+p
+{
+font-size:25px;
+}
+#test
+{
+color:white;
+background-color:green;
+text-decoration: none;
+font-weight:normal;
+}
+span
+{
+font-weight:15px;
+}
+</body>
+</html>
