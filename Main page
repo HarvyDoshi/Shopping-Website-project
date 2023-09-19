@@ -1,0 +1,56 @@
+->mainpg.html
+
+<html>
+<head>
+<title>
+Home Page</title>
+<style>
+b
+{
+color:aquamarine;
+}
+a
+{
+font-size:25px;
+color:red;
+}
+pre
+{
+font-size:25px;
+color:brown;
+}
+p
+{
+font-size:50px;
+text-align:center;
+background-color:blue;
+color:yellow;
+}
+u
+{
+color:red;
+}
+</style>
+</head>
+<body bgcolor=yellow>
+
+<nav><pre>
+<a href="home.html">Home</a> <a href="address.html">Shipping Address</a> <a
+href="Payment.html">Payment</a>
+</pre>
+</nav>
+<p><b>Almedo Watches Shopping Website!</b></p>
+
+<a href="home.html">Go To shop!</a>
+<br>
+<img align="middle" class="BuyNow" src="C:\Users\a\Downloads\buynow.jpg" width="700"
+height="300" >
+
+<pre>
+<u>Almedo Watches Online Shopping Store</u>
+Contact Details:
+Mobile No:8895246212
+E-mail:<a href="mailto:almedowatches@gmail.com">almedowatches@gmail.com</a>
+</pre>
+</body>
+</html>
