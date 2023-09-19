@@ -1,0 +1,123 @@
+->home.html
+
+<html>
+<head>
+<title>
+Home Page</title>
+<style>
+button
+{
+background-color: #4CAF50; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+h2
+{
+color:brown;
+font-size:30px;
+}
+h1
+{
+color:blue;
+font-size:30px;
+}
+pre
+{
+text-align:left;
+
+}
+table
+{
+background-color:aquamarine;
+}
+b
+{
+background-color:linen;
+color:red;
+font-size:40px;
+margin-left:200px;
+}
+img
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+height:250px;
+width:250px;
+}
+a
+{
+font-size:40px;
+}
+h2
+{
+text-align:center;
+color:purple;
+}
+</style>
+</head>
+<body bgcolor="yellow">
+<pre>
+<a href="mainpg.html">Main Page</a>
+</pre>
+<h1><b><u><p>Welcome to the Online Almedo Watches Shopping Store</u></b></p>
+<h2><i><u><p>Select your watch</u></i></p></h2>
+</h1>
+<br>
+<table border="3" bordercolor=blue cellpadding="5" cellspacing="5" style="width:100%">
+<th>
+<pre>
+<h1>Company:Noise
+Model:Grey Noise Smart-Watch
+Price:5600/-
+
+</h1>
+</pre>
+<img
+src="https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_100,w_1080/v1/as
+sets/images/12514718/2020/11/2/aa8fdeda-eb6d-4f4e-8b22-23917b9479721604304380593
+-Garmin-Venu-Light-SandRose-Gold-5651604304379738-1.jpg">
+<a href="address.html" id="test" class="btn btn-info" role="button">Buy Now</a>
+</th>
+<th>
+<pre>
+<h1>
+Company:Titan Raga
+Model:Raga Viva Analog Dial
+Women's watch
+Price:3505/-
+</h1>
+</pre>
+<img src="https://m.media-amazon.com/images/I/61KmHWU3MrL._AC_UL320_.jpg">
+<span><a href="address.html" id="test" class="btn btn-info" role="button">Buy
+Now</a></span>
+</th>
+<th>
+<h1>
+<pre>
+Company:Titan Rado
+Model:Titan Analog Black Dial
+Men's Watch
+Price:5495/-
+</pre>
+</h1>
+<img src="https://m.media-amazon.com/images/I/41Eae2BvcsL.jpg">
+<a href="address.html" id="test" class="btn btn-info" role="button">Buy Now</a>
+<style>
+#test
+{
+color:white;
+background-color:green;
+text-decoration: none;
+font-weight:normal;
+}
+</style>
+</pre>
+</th>
+<br>
+</html>
